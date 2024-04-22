@@ -1,0 +1,12 @@
+/* :host ::ng-deep .p-panel-header {
+    background-color: var(--teal-500);
+    border-color: var(--teal-500);
+    color: #ffffff;
+} */
+
+:host ::ng-deep .p-panel-content {
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(17,121,9,0.6027661064425771) 0%);
+height: 400px;
+min-height: 100%;
+}
